@@ -1,0 +1,53 @@
+# ------------------------
+# Python 관련
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.sqlite3
+.env
+venv/
+.env.*   # dotenv 파일
+*.log
+
+# ------------------------
+# Poetry & 가상환경
+# ------------------------
+.poetry/
+.cache/
+.python-version
+.customs-ocr-py3.13/  # poetry virtualenv 경로
+*.lock  # optional: poetry.lock 포함 여부 선택
+
+# ------------------------
+# MacOS 관련
+# ------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------
+# Docker 관련
+# ------------------------
+docker-compose.override.yml
+*.env    # Docker 환경 변수 파일
+*.log
+*.pid
+__pycache__/
+
+# ------------------------
+# IDE / 편집기
+# ------------------------
+.vscode/
+.idea/
+*.swp
+uploads/

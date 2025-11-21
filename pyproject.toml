@@ -1,0 +1,42 @@
+[project]
+name = "customs-ocr"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "raincode02",email = "coldheart2523@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (==0.118.2)",
+    "boto3 (==1.40.48)",
+    "python-dotenv (==1.1.1)",
+    "annotated-types (==0.7.0)",
+    "anyio (==4.11.0)",
+    "botocore (==1.40.48)",
+    "click (==8.3.0)",
+    "h11 (==0.16.0)",
+    "httptools (==0.6.4)",
+    "idna (==3.10)",
+    "jmespath (==1.0.1)",
+    "pydantic (==2.12.0)",
+    "pydantic-core (==2.41.1)",
+    "python-dateutil (==2.9.0.post0)",
+    "pyyaml (==6.0.3)",
+    "s3transfer (==0.14.0)",
+    "six (==1.17.0)",
+    "sniffio (==1.3.1)",
+    "starlette (==0.48.0)",
+    "typing-inspection (==0.4.2)",
+    "typing-extensions (==4.15.0)",
+    "urllib3 (==2.5.0)",
+    "uvicorn (==0.37.0)",
+    "uvloop (==0.21.0)",
+    "watchfiles (==1.1.0)",
+    "websockets (==15.0.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
